@@ -1,0 +1,86 @@
+@import "axcon/effect.css";
+
+.ax {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  .ax-lightbulb-1 {
+    width: 0.625em;
+  }
+  
+  .ax-connection {
+    width: 1.25em;
+  }
+  
+  .ax-books {
+    width: 1.125em;
+  }
+  
+  .ax-library {
+    width: 1.0625em;
+  }
+  
+  .ax-price-tags {
+    width: 1.25em;
+  }
+  
+  .ax-history {
+    width: 1.0625em;
+  }
+  
+  .ax-keyboard {
+    width: 1.125em;
+  }
+  
+  .ax-bubbles {
+    width: 1.125em;
+  }
+  
+  .ax-bubbles2 {
+    width: 1.125em;
+  }
+  
+  .ax-bubbles3 {
+    width: 1.125em;
+  }
+  
+  .ax-bubbles4 {
+    width: 1.125em;
+  }
+  
+  .ax-users {
+    width: 1.125em;
+  }
+  
+  .ax-menu-21 {
+    width: 1.375em;
+  }
+  
+  .ax-menu-3 {
+    width: 1.375em;
+  }
+  
+  .ax-menu-4 {
+    width: 1.375em;
+  }
+  
+  .ax-volume-high {
+    width: 1.0625em;
+  }
+  
+  .ax-embed-2 {
+    width: 1.25em;
+  }
+  
+  .ax-lightbulb {
+    width: 0.6875em;
+  }
+  
+  .ax-angle-double-up {
+    width: 0.6428571428571428em;
+  }

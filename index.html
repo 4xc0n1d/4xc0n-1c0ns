@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-status-bar" content="#db4938">
+    <meta name="theme-color" content="#db4938">
+
+    <meta name="robots" content="all" />
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/images/favicon.svg" type="image/x-icon">
+    <meta name="msapplication-TileColor" content="#2d3e50">
+    <meta name="msapplication-TileImage" content="/assets/images/logo/axcon.svg">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="author" content="Axcon">
+    <meta name="publisher" content="Axcon">
+
+    <link rel="canonical" href="https://www.axcon.my.id/" />
+    <meta name="description" content="Official open source SVG icon library for Axcon">
+    <meta property="og:url" content="https://www.axcon.my.id/">
+    <meta property="og:title" content="Axcon - Open source SVG icon library" />
+    <meta property="og:description" content="Official open source SVG icon library for Axcon" />
+    <meta property="og:image" content="https://www.axcon.my.id/assets/img/logo/axcon.svg">
+    <meta property="og:site_name" content="Axcon">
+    <meta property="og:ttl" content="3600">
+
+    <title>Axcon</title>
+
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap"
+        rel="stylesheet">
+
+
+    <!-- Axcon -->
+    <link rel="stylesheet" type="text/css" href="/assets/docs/fonts/axcon.css">
+    <link rel="stylesheet" type="text/css" href="/assets/docs/svg/axcon/axcon.css">
+    <!-- css start-->
+    <link rel="stylesheet" type="text/css" href="/assets/css/vendors/slick.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/vendors/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/vendors/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/vendors/animate.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/vendors/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link id="color" rel="stylesheet" href="/assets/css/color-1.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- loader starts-->
+    <div class="loader-wrapper">
+        <div class="loader-index"><span></span></div>
+        <svg>
+            <defs></defs>
+            <filter id="goo">
+                <fegaussianblur in="SourceGraphic" stddeviation="11" result="blur"></fegaussianblur>
+                <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo">
+                </fecolormatrix>
+            </filter>
+        </svg>
+    </div>
+    <!-- loader ends-->
+
+    <div class="tap-top"><i class="ax-angle-double-up top" data-feather="angle-double-up"></i></div>
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper compact-wrapper" id="pageWrapper">
+        <!-- Page Header Start-->
+        <div class="page-header">
+            <div class="header-wrapper row m-0">
+                <form class="form-inline search-full col" action="" onsubmit="return false">
+                    <div class="form-group w-100 search-btn" id="btn-search">
+                        <div class="Typeahead Typeahead--twitterUsers">
+                            <div class="u-posRelative">
+                                <input class="demo-input Typeahead-input form-control-plaintext w-100" id="search"
+                                    type="text" placeholder="Search Icons..." name="q" title="" autofocus>
+                                <div class="spinner-border Typeahead-spinner" role="status"><span
+                                        class="sr-only">Loading...</span>
+                                </div><i class="ax-clear close-search" data-feather="x"></i>
+                            </div>
+                            <div class="Typeahead-menu"></div>
+                        </div>
+                    </div>
+                </form>
+                <div class="header-logo-wrapper col-auto p-0">
+                    <div class="logo-wrapper">
+                        <a href="/">
+                            <img class="img-fluid" src="/assets/images/logo/logo.svg" alt="Axcon">
+                        </a>
+                    </div>
+                    <div class="toggle-sidebar">
+                        <i class="ax-menu middle sidebar-toggle" data-feather="grid"></i>
+                    </div>
+                </div>
+                <div class="left-header col-xxl-5 col-xl-6 col-lg-5 col-md-4 col-sm-3 p-0">
+                    <div class="notification-slider">
+
+                        <div class="d-flex h-100">
+                            <img src="/assets/images/giftools.gif" alt="gif">
+                            <h6 class="mb-0 f-w-400"><span class="font-primary">New Update Version!</span>
+                                <span class="f-light">Versi 2.0</span>
+                            </h6>
+                        </div>
+
+                        <div class="d-flex h-100">
+                            <img src="/assets/images/giftools.gif" alt="gif">
+                            <h6 class="mb-0 f-w-400">
+                                <span class="f-light">Cara Menggunakan Icon? </span>
+                            </h6>
+                            <a class="ms-1" href="/starter-kit" target="_blank">Starter Kit</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="nav-right col-xxl-7 col-xl-6 col-md-7 col-8 pull-right right-header p-0 ms-auto">
+                    <ul class="nav-menus">
+                        <li class="language-nav">
+                            <div class="translate_wrapper">
+                                <div class="current_lang">
+                                    <div class="lang">
+                                        <i class="flag-icon flag-icon-us"></i>
+                                        <span class="lang-txt">EN </span>
+                                    </div>
+                                </div>
+                                <div class="more_lang">
+                                    <div class="lang selected" data-value="en">
+                                        <i class="flag-icon flag-icon-us"></i>
+                                        <span class="lang-txt">English<span> (US)</span></span>
+                                    </div>
+                                    <div class="lang" data-value="id">
+                                        <i class="flag-icon flag-icon-id"></i>
+                                        <span class="lang-txt">Indoensian<span> (ID)</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="header-search axcon-icons">
+                                <i class="ax-search"></i>
+                            </span>
+                        </li>
+                        <li>
+                            <div class="mode">
+                                <i class="ax-lightbulb"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Body Start-->
+        <div class="page-body-wrapper">
+            <!-- Page Sidebar Start-->
+            <div class="sidebar-wrapper" sidebar-layout="stroke-svg">
+                <div>
+                    <div class="logo-wrapper">
+                        <a href="/">
+                            <img class="img-fluid for-light" src="/assets/images/logo/logo-light.svg" alt="Axcon">
+                            <img class="img-fluid for-dark" src="/assets/images/logo/logo-dark.svg" alt="Axcon">
+                        </a>
+                        <div class="back-btn">
+                            <i class="ax-rewind"></i>
+                        </div>
+                        <div class="toggle-sidebar">
+                            <i class="ax-menu middle sidebar-toggle" data-feather="grid"></i>
+                        </div>
+                    </div>
+                    <div class="logo-icon-wrapper">
+                        <a href="/">
+                            <img class="img-fluid" src="/assets/images/logo/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <nav class="sidebar-main">
+                        <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
+                        <div id="sidebar-menu">
+                            <ul class="sidebar-links" id="simple-bar">
+                                <li class="back-btn">
+                                    <a href="/">
+                                        <img class="img-fluid" src="/assets/images/logo/logo-icon.png" alt="">
+                                    </a>
+                                    <div class="mobile-back text-end">
+                                        <span>Back</span>
+                                        <i class="fa fa-angle-right ps-2" aria-hidden="true"></i>
+                                    </div>
+                                </li>
+                                <li class="sidebar-main-title">
+                                    <div>
+                                        <h6 class="lan-1">General</h6>
+                                    </div>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="/">
+                                        <i class="ax-home"></i>
+                                        <span class="home">Dashboard</span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-main-title">
+                                    <div>
+                                        <h6 class="help">Help</h6>
+                                    </div>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="/starter-kit" target="_blank">
+                                        <i class="ax-files"></i>
+                                        <span class="starter-kit">Starter Kit</span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="/m/faq">
+                                        <i class="ax-help-circle"></i>
+                                        <span class="faq">FAQ</span>
+                                    </a>
+                                </li>
+
+                                <li class="sidebar-list">
+                                    <a class="sidebar-link sidebar-title link-nav" href="/m/about">
+                                        <i class="ax-info"></i>
+                                        <span class="about">about</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Page Sidebar Ends-->
+            <div class="page-body">
+                <div class="container-fluid">
+                    <div class="page-title">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3 class="home">Home</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Container-fluid starts-->
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <!-- Icon -->
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="m-b-0 icon">Axcon</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row icon-lists search" id="axcon">
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-fahrenheit"></i><span>ax-fahrenheit</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-celsius"></i><span>ax-celsius</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-none"></i><span>ax-none</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-compass"></i><span>ax-compass</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-thermometer"></i><span>ax-thermometer</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-snowy"></i><span>ax-snowy</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-snowy-1"></i><span>ax-snowy-1</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-snowy-2"></i><span>ax-snowy-2</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-snowy-3"></i><span>ax-snowy-3</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-snowy-4"></i><span>ax-snowy-4</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-rainy"></i><span>ax-rainy</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-rainy-1"></i><span>ax-rainy-1</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-rainy-2"></i><span>ax-rainy-2</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-rainy-3"></i><span>ax-rainy-3</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-lightning"></i><span>ax-lightning</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-lightning-1"></i><span>ax-lightning-1</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-lightning-2"></i><span>ax-lightning-2</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-lightning-3"></i><span>ax-lightning-3</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-lightning-4"></i><span>ax-lightning-4</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-lines"></i><span>ax-lines</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-weather"></i><span>ax-weather</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-weather-1"></i><span>ax-weather-1</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-weather-2"></i><span>ax-weather-2</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-weather-3"></i><span>ax-weather-3</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-weather-4"></i><span>ax-weather-4</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-cloud"></i><span>ax-cloud</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-cloud-1"></i><span>ax-cloud-1</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-cloud-2"></i><span>ax-cloud-2</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-cloud-3"></i><span>ax-cloud-3</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-cloud-4"></i><span>ax-cloud-4</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-cloudy"></i><span>ax-cloudy</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-cloudy-1"></i><span>ax-cloudy-1</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-cloudy-2"></i><span>ax-cloudy-2</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-cloudy-3"></i><span>ax-cloudy-3</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-snowflake"></i><span>ax-snowflake</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-wind"></i><span>ax-wind</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-windy"></i><span>ax-windy</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-windy-1"></i><span>ax-windy-1</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-windy-2"></i><span>ax-windy-2</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-windy-3"></i><span>ax-windy-3</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-windy-4"></i><span>ax-windy-4</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-moon"></i><span>ax-moon</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-moon-1"></i><span>ax-moon-1</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-sun"></i><span>ax-sun</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-sun-1"></i><span>ax-sun-1</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-sun-2"></i><span>ax-sun-2</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-sunrise"></i><span>ax-sunrise</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Icon -->
+
+                        <!-- Logo -->
+                        <div class="col-sm-12" id="axcon">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="m-b-0 logo">Axcon</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row icon-lists search">
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-zendesk"></i><span>ax-zendesk</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-twitch"></i><span>ax-twitch</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-shopify"></i><span>ax-shopify</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-shell"></i><span>ax-shell</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-pinterest"></i><span>ax-pinterest</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-ionic"></i><span>ax-ionic</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-intercom"></i><span>ax-intercom</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-icloud"></i><span>ax-icloud</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-git"></i><span>ax-git</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-github"></i><span>ax-github</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-gitlab"></i><span>ax-gitlab</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-fiverr"></i><span>ax-fiverr</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-figma"></i><span>ax-figma</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-codepen"></i><span>ax-codepen</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-bootstrap"></i><span>ax-bootstrap</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-bitbucket"></i><span>ax-bitbucket</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-bitcoin"></i><span>ax-bitcoin</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-bit"></i><span>ax-bit</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-atom"></i><span>ax-atom</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-audi"></i><span>ax-audi</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-angular"></i><span>ax-angular</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-android"></i><span>ax-android</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-amazon"></i><span>ax-amazon</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-algolia"></i><span>ax-algolia</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-yahoo"></i><span>ax-yahoo</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-xbox"></i><span>ax-xbox</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-vsco"></i><span>ax-vsco</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-wattpad"></i><span>ax-wattpad</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-vk"></i><span>ax-vk</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-visa"></i><span>ax-visa</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-vimeo"></i><span>ax-vimeo</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-unsplash"></i><span>ax-unsplash</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-unity"></i><span>ax-unity</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-twitter"></i><span>ax-twitter</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-spotify"></i><span>ax-spotify</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-sketch"></i><span>ax-sketch</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-patreon"></i><span>ax-patreon</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-paypal"></i><span>ax-paypal</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-netflix"></i><span>ax-netflix</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-linkedin"></i><span>ax-linkedin</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-instagram"></i><span>ax-instagram</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-gmail"></i><span>ax-gmail</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-dribbble"></i><span>ax-dribbble</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-canva"></i><span>ax-canva</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-steam"></i><span>ax-steam</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-stripe"></i><span>ax-stripe</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-telegram"></i><span>ax-telegram</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-tiktok"></i><span>ax-tiktok</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-whatsapp"></i><span>ax-whatsapp</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-youtube"></i><span>ax-youtube</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-zoom"></i><span>ax-zoom</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-google-chrome"></i><span>ax-google-chrome</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i  class="ax-google-drive"></i><span>ax-google-drive</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-google-pay"></i><span>ax-google-pay</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-google"></i><span>ax-google</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-epic-games"></i><span>ax-epic-games</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-facebook"></i><span>ax-facebook</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-dropbox"></i><span>ax-dropbox</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-discord"></i><span>ax-discord</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-buy-me-a-coffee"></i><span>ax-buy-me-a-coffee</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-blogger"></i><span>ax-blogger</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-bitly"></i><span>ax-bitly</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-behance"></i><span>ax-behance</span></div>
+                                        <div class="col-sm-6 col-md-4 col-xl-3"><i class="ax-apple"></i><span>ax-apple</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Logo -->
+
+                    </div>
+                </div>
+                <!-- Container-fluid Ends-->
+            </div>
+            <!-- footer start-->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 footer-copyright text-center">
+                            <p class="mb-0">&copy; Copyright 2022 <strong><span>Axcon</span></strong>. All Rights
+                                Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="icon-hover-bottom p-fixed fa-fa-icon-show-div opecity-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="icon-popup">
+                        <div class="close-icon"><i class="ax-clear"></i></div>
+                        <div class="icon-first"><i class="icon-drupal" id="icon_main"></i></div>
+                        <div class="icon-class">
+                            <label class="icon-title">Class</label><span id="fclass1">axcon</span>
+                        </div>
+                        <div class="icon-last icon-last">
+                            <label class="icon-title">Markup</label>
+                            <div class="form-inline">
+                                <div class="form-group">
+
+                                    <div class="tab-group">
+                                        <section id="html" title="HTML">
+                                            <input class="inp-val form-control m-r-10" id="input_copy" type="text"
+                                                value="" readonly="readonly">
+                                            <button class="btn btn-primary notification" onclick="copyHTML()">Copy
+                                                HTML</button>
+                                        </section>
+
+                                        <section id="svg" title="SVG">
+                                            <input class="inp-svg form-control m-r-10" id="input_svg" type="text"
+                                                value="" readonly="readonly">
+                                            <button class="btn btn-primary notification" onclick="copySVG()">Copy
+                                                SVG</button>
+                                        </section>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/assets/docs/svg/axcon.js"></script>
+    <script src="/assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/scrollbar/simplebar.js"></script>
+    <script src="/assets/js/scrollbar/custom.js"></script>
+    <script src="/assets/js/config.js"></script>
+    <script src="/assets/js/sidebar-menu.js"></script>
+    <script src="/assets/js/slick/slick.min.js"></script>
+    <script src="/assets/js/slick/slick.js"></script>
+    <script src="/assets/js/header-slick.js"></script>
+    <script src="/assets/js/notify/bootstrap-notify.min.js"></script>
+    <script src="/assets/js/icons/icons-notify.js"></script>
+    <script src="/assets/js/icons/icon-clipart.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/translate/dashboard/axcon.js"></script>
+    <script src="/assets/js/theme-customizer/customizer.js"></script>
+
+</body>
+
+</html>
