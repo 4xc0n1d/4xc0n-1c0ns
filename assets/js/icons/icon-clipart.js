@@ -1,7 +1,7 @@
 (function($) {
     "use strict";
-    $('.icon-lists div').click( function() {
-        $(".icon-lists").addClass('m-b-50');
+    $('.iconslist div').click( function() {
+        $(".iconslist").addClass('m-b-50');
         $(".fa-fa-icon-show-div").show();
         $(".fa-fa-icon-show-div").removeClass('opecity-0');
         var font_class = ($(this).children().attr('class'));
@@ -17,7 +17,7 @@
     $(".close-icon").click(function(){
         $(".icon-hover-bottom").addClass("opecity-0");
         $(".fa-fa-icon-show-div").hide();
-        $(".icon-lists").removeClass('m-b-50');
+        $(".iconslist").removeClass('m-b-50');
     });
 })(jQuery);
 function copyHTML() {
@@ -30,8 +30,8 @@ function copyHTML() {
 
 (function($) {
     "use strict";
-    $('.icon-lists div').click( function() {
-        $(".icon-lists").addClass('m-b-50');
+    $('.iconslist div').click( function() {
+        $(".iconslist").addClass('m-b-50');
         $(".fa-fa-icon-show-div").show();
         $(".fa-fa-icon-show-div").removeClass('opecity-0');
         var font_class = ($(this).children().attr('class'));
@@ -47,7 +47,7 @@ function copyHTML() {
     $(".close-icon").click(function(){
         $(".icon-hover-bottom").addClass("opecity-0");
         $(".fa-fa-icon-show-div").hide();
-        $(".icon-lists").removeClass('m-b-50');
+        $(".iconslist").removeClass('m-b-50');
     });
 })(jQuery);
 function copySVG() {

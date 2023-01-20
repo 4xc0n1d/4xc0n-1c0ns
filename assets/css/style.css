@@ -7241,38 +7241,59 @@ table.dataTable.display tbody tr.odd>.sorting_1 {
 /**=====================
      12. Form Builder 2 CSS Ends
 ==========================**/
-/**=====================
-    10. ICON CSS Start
-==========================**/
-.icon-lists div {
+/*--------------------------------------------------------------
+# Icons list page
+--------------------------------------------------------------*/
+.iconslist {
   cursor: pointer;
-  line-height: 60px;
-  white-space: nowrap;
   border-radius: 4px;
-  display: flex;
   align-items: center;
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+  gap: 1.5rem;
+  padding-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.icon-lists div:hover {
+.iconslist .axcon-icon {
+  border-radius: 0.25rem;
+  text-align: center;
+  color: #012970;
+  padding: 15px 0;
+}
+
+.iconslist i {
+  margin: 0.25rem;
+  font-size: 48px;
+}
+
+.iconslist span {
+  font-family: var(--bs-font-monospace);
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  padding: 0.25rem;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #666;
+}
+
+.iconslist div:hover {
   background-color: #fafafa;
 }
 
-.icon-lists div i {
+.iconslist div i {
   margin: 0 15px 0 10px;
   font-size: 24px;
 }
 
-.icon-lists.whether-icon svg {
+.iconslist.whether-icon svg {
   height: 50px;
   width: 50px;
-}
-
-.icon-lists.feather-icons .media svg {
-  margin: 0 15px 0 10px;
-}
-
-.icon-lists .feather-icon .icon-first h6 {
-  display: none;
 }
 
 .flag-icons,
@@ -30381,11 +30402,11 @@ body.dark-only .page-wrapper .page-body-wrapper .page-body .dropdown-menu a:hove
   background-color: #262932;
 }
 
-body.dark-only .page-wrapper .page-body-wrapper .page-body .icon-lists div i {
+body.dark-only .page-wrapper .page-body-wrapper .page-body .iconslist div i {
   color: #98a6ad;
 }
 
-body.dark-only .page-wrapper .page-body-wrapper .page-body .icon-lists div:hover {
+body.dark-only .page-wrapper .page-body-wrapper .page-body .iconslist div:hover {
   background-color: #1d1e26;
 }
 
@@ -34072,7 +34093,7 @@ button[data-toggle=dropdown]:hover~.dropdown-menu {
   position: absolute;
   left: 30px;
   top: 27px;
-  content: "\e90b";
+  content: "\e9cc";
   font-size: 16px;
   color: #898989;
   font-family: Axcon;
@@ -38708,15 +38729,15 @@ html[dir=rtl] .icon-hover-bottom .icon-title {
   text-align: right;
 }
 
-html[dir=rtl] .icon-lists div i {
+html[dir=rtl] .iconslist div i {
   margin: 0 10px 0 15px;
 }
 
-html[dir=rtl] .icon-lists ul {
+html[dir=rtl] .iconslist ul {
   padding-right: 0;
 }
 
-html[dir=rtl] ul.icon-lists {
+html[dir=rtl] ul.iconslist {
   padding-right: 30px;
 }
 

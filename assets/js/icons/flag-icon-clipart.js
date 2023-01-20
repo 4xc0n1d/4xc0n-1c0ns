@@ -1,6 +1,6 @@
 (function($) {
     "use strict";
-    $('.icon-lists div').click( function() {
+    $('.iconslist div').click( function() {
         $(".fa-fa-icon-show-div").show().removeClass('opecity-0');
         var font_class = ($(this).children().children('i').attr('class'));
         var fafaclass= '&lt;i class="'+ font_class + '"&gt';
@@ -16,7 +16,7 @@
     $(".close-icon").click(function(){
         $(".icon-hover-bottom").addClass("opecity-0");
         $(".fa-fa-icon-show-div").hide();
-        $(".icon-lists").removeClass('m-b-50');
+        $(".iconslist").removeClass('m-b-50');
     });
 })(jQuery);
 function myFunction() {

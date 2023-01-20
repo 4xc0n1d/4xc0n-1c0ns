@@ -52,6 +52,8 @@ function translate(tnum) {
     $('.starter-kit').text(trans[4][tnum]);
     $('.faq').text(trans[5][tnum]);
     $('.about').text(trans[6][tnum]);
+
+    $('.total-icons').text(trans[7][tnum]);
 }
 
 var trans = [
@@ -97,6 +99,13 @@ var trans = [
     {
         en: 'About',
         id: 'Tentang'
+        
+    }, 
+
+    /* Trans 7 Total Icons */
+    {
+        en: 'Total Icons 282',
+        id: 'Jumlah Ikon 282'
         
     }, 
 ];

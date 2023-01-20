@@ -185,7 +185,7 @@ $(".chat-menu-icons .toogle-bar").click(function () {
 $(document).ready(function () {
     $("#search").on("keyup", function () {
         var value = $(this).val().toLowerCase();
-        $(".icon-lists div").filter(function () {
+        $(".iconslist div").filter(function () {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
