@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 function translate(tnum) {
     $('.home').text(trans[0][tnum]);
-    $('.icon').text(trans[1][tnum]);
+    $('.icons').text(trans[1][tnum]);
     $('.logo').text(trans[2][tnum]);
     $('.3d').text(trans[3][tnum]);
     /* Help */
@@ -62,7 +62,7 @@ var trans = [
         en: 'Dashboards',
         id: 'Home'
     }, 
-    /* Trans 1 Icon */
+    /* Trans 1 Icons */
     {
         en: 'Icons',
         id: 'Ikon'

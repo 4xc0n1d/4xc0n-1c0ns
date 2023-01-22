@@ -7263,6 +7263,7 @@ table.dataTable.display tbody tr.odd>.sorting_1 {
   text-align: center;
   color: #012970;
   padding: 15px 0;
+  border-style: solid;
 }
 
 .iconslist i {
